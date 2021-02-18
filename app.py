@@ -26,7 +26,20 @@ app.secret_key = "randomstring"
 
 #print(os.environ.get("DATABASE_URL"))
 #app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DATABASE_URL")
-app.config["SQLALCHEMY_DATABASE_URI"] ="postgres://qizllymyyraymu:a7d672dfe0d3a5b3cfd838e60bb08779900fe7e1f322861740efa821b02e513f@ec2-34-194-215-27.compute-1.amazonaws.com:5432/d53vfa2588029"
+app.config["SQLALCHEMY_DATABASE_URI"] ="postgres://ccgivigwjxbere:1bfedd860f5c35f65c9a0d4b83338fa773435bab7e6abd239995eb665d7525ee@ec2-34-192-58-41.compute-1.amazonaws.com:5432/dckeb4ijeh54v1"
+
+    ###"postgresql+psycopg2://rjpiahymehlivg:f7a5782c5902a22cc06937aa671847309ddc93152dc6c717980340d15d77ca90@ec2-54-144-251-233.compute-1.amazonaws.com:5432/ddq3qrme7kt4uj"
+
+
+##    "postgres://pwmrbjlscczizl:b2f0f0dc26e300ec4bee114242916bd8b9d35a6fdbad6a61de016afff6e1a25c@ec2-3-214-3-162.compute-1.amazonaws.com:5432/d2o9bn1u3iguun"
+
+####"postgres://rjpiahymehlivg:f7a5782c5902a22cc06937aa671847309ddc93152dc6c717980340d15d77ca90@ec2-54-144-251-233.compute-1.amazonaws.com:5432/ddq3qrme7kt4uj"
+
+    ##"postgresql+psycopg2://postgres:Vovik20121985@localhost/for_second_stepic"
+##"postgresql+psycopg2://postgres:Vovik20121985@localhost/for_second_stepic"
+####<Диалект БД>+<Драйвер>://<Имя пользователя>:<Пароль>@<Хост БД>:<Порт>/<Имя БД>
+
+
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
