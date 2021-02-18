@@ -26,7 +26,7 @@ app.secret_key = "randomstring"
 
 #print(os.environ.get("DATABASE_URL"))
 #app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DATABASE_URL")
-app.config["SQLALCHEMY_DATABASE_URI"] ="postgres://kjhjmetfodkxim:6575f58e962484728cd14c1c68c085f38e486241c558e13e063a522f8b2eec6f@ec2-34-239-33-57.compute-1.amazonaws.com:5432/d29mfnii521ejq"
+app.config["SQLALCHEMY_DATABASE_URI"] ="postgres://qizllymyyraymu:a7d672dfe0d3a5b3cfd838e60bb08779900fe7e1f322861740efa821b02e513f@ec2-34-194-215-27.compute-1.amazonaws.com:5432/d53vfa2588029"
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
